@@ -2,13 +2,17 @@
   "name": "software-ideas-ingest",
   "version": "1.0.0",
   "description": "A project ot scan for angst of the people",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "babel-register": "^6.24.1"
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "bunyan": "^1.8.10"
   }
 }

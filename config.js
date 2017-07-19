@@ -1,8 +1,7 @@
 const fs = require('fs');
 
-export const getCreds = () => {
-  fs.readFile('./.credentials.json', 'utf8', (err, data) => {
-    const credentials = JSON.parse(data);
-    return credentials;
-  });
+export const getCreds = (callback) => {
+  const data = fs.readFileSync('./.credentials.json', 'utf8')
+  const credentials = JSON.parse(data);
+  return credentials;
 }
