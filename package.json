@@ -1,0 +1,14 @@
+{
+  "name": "software-ideas-ingest",
+  "version": "1.0.0",
+  "description": "A project ot scan for angst of the people",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-register": "^6.24.1"
+  }
+}
